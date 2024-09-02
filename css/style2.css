@@ -1,0 +1,15 @@
+:root{
+    --background-color: rgb(65, 195, 224) ;
+    --light-color:rgb(170, 202, 209);
+    --dark-color:rgb(17, 19, 20);
+    --link-color:rgb(74, 85, 87);
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--background-color);
+    margin: 0 1em;
+    font-size: 16px;
+
+}
