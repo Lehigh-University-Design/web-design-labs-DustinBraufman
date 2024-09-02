@@ -1,5 +1,5 @@
 :root{
-    --background-color: rgb(65, 195, 224) ;
+    --background-color: rgb(150, 134, 71) ;
     --light-color:rgb(170, 202, 209);
     --dark-color:rgb(17, 19, 20);
     --link-color:rgb(74, 85, 87);
@@ -12,4 +12,9 @@ body{
     margin: 0 1em;
     font-size: 16px;
 
+}
+
+h1 {
+    font-weight: 100;
+    font-size: larger;
 }
