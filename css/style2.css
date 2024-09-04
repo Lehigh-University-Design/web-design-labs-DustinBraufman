@@ -1,5 +1,5 @@
 :root{
-    --background-color: rgb(150, 134, 71) ;
+    --background-color: rgb(255, 255, 255) ;
     --light-color:rgb(170, 202, 209);
     --dark-color:rgb(17, 19, 20);
     --link-color:rgb(74, 85, 87);
@@ -14,8 +14,38 @@ body{
 
 }
 
+#head{
+    display: flex;
+    justify-content: space-between;
+}
+
+#head h3 a{
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px;
+   
+}
+
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
     font-size: larger;
+}
+
+.post{
+    border: 4px solid var(--dark-color);
+}
+
+.subhead{
+    margin-left: auto;
+    order:2;
 }
