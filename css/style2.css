@@ -308,3 +308,53 @@ width:calc(25%-2em);
         grid-column:2 / 4;
         background-color: crimson;
     }
+
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: start;
+        background-color: chartreuse;
+        height: 100vh;
+    }
+
+    .nav{
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .landingtext{
+        flex-direction: column;
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .thing{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .thing2{
+        width: 200px;
+    }
+
+    .about{
+        background-color: yellow;
+    }
+ 
+    .card{
+        background-color: darkgoldenrod;
+        border-radius: 12px;
+        border: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 17%;
+        flex-direction: column;
+    }
